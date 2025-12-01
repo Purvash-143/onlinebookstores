@@ -7,5 +7,5 @@ metadata:
     github.com/project-slug: Purvash-143/onlinebookstores
 spec:
   type: service
-  owner: user:default/purvash
+  owner: Purvash-143
   lifecycle: unknown
