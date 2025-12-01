@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: onlinebookstores
+  description: Online Bookstores web application
+  annotations:
+    github.com/project-slug: Purvash-143/onlinebookstores
+spec:
+  type: service
+  owner: user:default/purvash
+  lifecycle: unknown
