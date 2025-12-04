@@ -4,16 +4,11 @@ metadata:
   name: onlinebookstores
   description: Online Bookstores web application
   annotations:
-    github.com/project-slug: Purvash-143/onlinebookstores
     dynatrace.com/dql-query-definition: |
       {
         "dynatrace.logs": {
           "displayName": "Laptop Logs",
-          "dql": "fetch logs | filter contains(content, \"\") | limit 50"
-        },
-        "dynatrace.kubernetes-deployments": {
-          "displayName": "Kubernetes Deployments",
-          "dql": "fetch kubernetes_deployment | fields name, namespace, replicas, created | limit 20"
+          "dql": "fetch logs | limit 50"
         }
       }
 spec:
