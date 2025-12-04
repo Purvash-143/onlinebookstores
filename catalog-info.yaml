@@ -4,7 +4,7 @@ metadata:
   name: onlinebookstores
   description: Online Bookstores web application
   annotations:
-    dynatrace.com/dql-query-definition: |
+    dynatrace.com/dql-query-definitions: |
       {
         "dynatrace.logs": {
           "displayName": "Laptop Logs",
@@ -15,4 +15,5 @@ spec:
   type: service
   owner: Purvash-143
   lifecycle: unknown
+
 
