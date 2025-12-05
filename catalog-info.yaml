@@ -9,12 +9,10 @@ metadata:
         "dynatrace.logs": {
           "displayName": "Laptop Logs",
           "dql": "fetch logs | limit 50",
-          "queryId": "dynatrace.logs"
+          "queryId": "logs"
         }
       }
 spec:
   type: service
-  owner: Purvash-143
-  lifecycle: unknown
-
-
+  owner: SonarQube
+  lifecycle: production
