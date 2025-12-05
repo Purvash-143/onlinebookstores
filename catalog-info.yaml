@@ -6,7 +6,7 @@ metadata:
   annotations:
     dynatrace.com/dql-query-definitions: |
       {
-        "dynatrace.logs": {
+        "logs": {
           "displayName": "Laptop Logs",
           "dql": "fetch logs | limit 50"
         }
