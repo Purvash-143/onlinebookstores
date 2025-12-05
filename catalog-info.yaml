@@ -3,20 +3,6 @@ kind: Component
 metadata:
   name: onlinebookstores
   description: Online Bookstores web application
-  dynatrace:
-    queries:
-      - id: logs
-        description: Fetch recent logs
-        query: |
-          fetch logs | limit 50
-      - id: events
-        description: Fetch recent events
-        query: |
-          fetch events | limit 10 | fieldsKeep timestamp, event.kind, event.name
-      - id: basic-data
-        description: Basic test data
-        query: |
-          data record(message="Welcome to Dynatrace!", timestamp=now(), environment="${environmentName}")
 spec:
   type: service
   owner: SonarQube
