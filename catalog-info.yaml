@@ -8,7 +8,7 @@ metadata:
       {
         "dynatrace.logs": {
           "displayName": "Laptop Logs",
-          "dql": "fetch logs | limit 50"
+          "dql": "fetch logs | limit 50",
           "queryId": "dynatrace.logs"
         }
       }
